@@ -1,0 +1,65 @@
+:root {
+    /* Font */
+    --font-family: "Roboto", sans-serif;
+
+    /* Colors */
+    --main-light: #ffffff;
+    --main-dark: #212121;
+    --main-color: #757575;
+
+    --bg-light: #F5F4FA;
+    --bg-dark: #2F303A;
+
+    --btn-color: #2196F3;
+
+    /* page Portfolio */
+    --card-bg: #EEEEEE; 
+
+}
+
+/* Common */
+body {
+    font-family: var(--font-family);
+    color: var(--main-color);
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+}
+
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+
+.link {
+    text-decoration: none;
+    font-family: inherit;
+}
+
+.list {
+    list-style: none;
+}
+
+.button {
+    border: none;
+    background-color: var(--btn-color);
+    /* color: inherit; */
+
+    cursor: pointer;
+}
+
+.section {
+    background-color: var(--main-light);
+}
+
+.section-second {
+    background-color: var(--main-color);
+}
